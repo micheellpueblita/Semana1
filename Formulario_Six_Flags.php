@@ -23,7 +23,7 @@
                 { 
                     if($i<15) 
                     {
-                        $boleto=$i+1; //conteo de boletos 
+                        $boleto=$i+1; 
                         echo "<table border=\"5 \>";
                         echo "<thead>";
                             echo "<tr>";
@@ -38,7 +38,7 @@
                                 echo "<td>$nombre</td>";
                                 echo "<td>$apellidos</td>";
                                 echo "<td>$edad</td>";
-                                echo "<td  rowspan=\"6\"><img src=\"https://i.pinimg.com/550x/7e/11/d2/7e11d23a4916433522bb12db9e635bd2.jpg\" alt=\"bolita amarilla tristongo\" width=\"150\" height=\"165\"></td>";
+                                echo "<td  rowspan=\"6\"><img src=\"https://i.pinimg.com/736x/d6/47/f3/d647f379d7646c76693ac9e24455cd15.jpg" alt=\"bolita amarilla tristongo\" width=\"150\" height=\"165\"></td>";
                             echo "</tr>";
                             echo "<tr>";
                                 echo "<td>$direccion</td>";
@@ -46,7 +46,7 @@
                                 echo "<td>$tipodeboleto</td>";
                             echo "</tr>";
                             echo "<tr>";
-                                echo "<td colspan=\"3\">Disfruta la fila en tu único juego.</td>";
+                                echo "<td colspan=\"3\">De tanta fila solo te vas a subir a uno</td>";
                             echo "</tr>";
                         echo "</body>";
                         echo "</table>";
@@ -55,7 +55,7 @@
                 }
             break;
 
-            case "Is qui mi di miedi":
+            case "Miedosin":
                 for($i=0; $i<$num_boletos; $i++)
                 {
                     if($i<15)
@@ -75,7 +75,7 @@
                                 echo "<td>$nombre</td>";
                                 echo "<td>$apellidos</td>";
                                 echo "<td>$edad</td>";
-                                echo "<td  rowspan=\"6\"><img src=\"https://i.pinimg.com/550x/2a/93/a9/2a93a9c7d61633bb4f11f0eae6f20ec5.jpg\" alt=\"bolita amarilla anuncio\" width=\"170\" height=\"150\"></td>";
+                                echo "<td  rowspan=\"6\"><img src=\"https://i.pinimg.com/564x/57/77/b4/5777b448b6b2a6f89f4c59f36dc33327.jpg" alt=\"bolita amarilla anuncio\" width=\"170\" height=\"150\"></td>";
                             echo "</tr>";
                             echo "<tr>";
                                 echo "<td>$direccion</td>";
@@ -83,7 +83,7 @@
                                 echo "<td>$tipodeboleto</td>";
                             echo "</tr>";
                             echo "<tr>";
-                                echo "<td colspan=\"3\">Disfruta tu miedo y fila.</td>";
+                                echo "<td colspan=\"3\">Como que tienes miedo?, ¿pa' que veniste?.</td>";
                             echo "</tr>";
                         echo "</body>";
                         echo "</table>";
@@ -92,7 +92,7 @@
                 }
             break;
             
-            case "Largasfilargas":
+            case "Muchafila":
                 for($i=0; $i<$num_boletos; $i++)
                 {
                     if($i<15)
@@ -112,7 +112,7 @@
                                 echo "<td>$nombre</td>";
                                 echo "<td>$apellidos</td>";
                                 echo "<td>$edad</td>";
-                                echo "<td  rowspan=\"4\"><img src=\"https://data.whicdn.com/images/345206792/original.jpg\" alt=\"bolita amarilla nimodo\" width=\"170\" height=\"140\"></td>";
+                                echo "<td  rowspan=\"4\"><img src=\"https://i.pinimg.com/564x/c3/38/be/c338be809934f07b4e061f6405762c3e.jpg" alt=\"bolita amarilla nimodo\" width=\"170\" height=\"140\"></td>";
                             echo "</tr>";
                             echo "<tr>";
                                 echo "<td>$direccion</td>";
@@ -120,7 +120,7 @@
                                 echo "<td>$tipodeboleto</td>";
                             echo "</tr>";
                             echo "<tr>";
-                                echo "<td colspan=\"3\">Platica mucho en tu largafilarga.</td>";
+                                echo "<td colspan=\"3\">Mucha fila ahí dice.</td>";
                             echo "</tr>";
                         echo "</body>";
                         echo "</table>";
@@ -149,7 +149,7 @@
                                 echo "<td>$nombre</td>";
                                 echo "<td>$apellidos</td>";
                                 echo "<td>$edad</td>";
-                                echo "<td  rowspan=\"4\"><img src=\"https://pbs.twimg.com/media/EfO5E6TWsAMMbOq.jpg\" alt=\"bolita amarilla lentes\" width=\"170\" height=\"160\"></td>";
+                                echo "<td  rowspan=\"4\"><img src=\"https://i.pinimg.com/564x/51/13/8e/51138ea223492c611334f674d73ba880.jpg" alt=\"bolita amarilla lentes\" width=\"170\" height=\"160\"></td>";
                             echo "</tr>";
                             echo "<tr>";
                                 echo "<td>$direccion</td>";
@@ -157,7 +157,7 @@
                                 echo "<td>$tipodeboleto</td>";
                             echo "</tr>";
                             echo "<tr>";
-                                echo "<td colspan=\"3\">No vas a platicar en la fila, <br> pero te puede subir a más juegos. </td>";
+                                echo "<td colspan=\"3\">Muito rapido. </td>";
                             echo "</tr>";
                         echo "</body>";
                         echo "</table>";
@@ -166,7 +166,7 @@
                 } 
             break; 
 
-            case "Fast-fast-rapidash":
+            case "Muy muito rapido":
                 for($i=0; $i<$num_boletos; $i++)
                 {
                     if($i<15)
@@ -186,7 +186,7 @@
                                 echo "<td>$nombre</td>";
                                 echo "<td>$apellidos</td>";
                                 echo "<td>$edad</td>";
-                                echo "<td  rowspan=\"4\"><img src=\"https://i.pinimg.com/474x/ac/aa/56/acaa56585e2788119d35618084bd267b.jpg\" alt=\"bolita amarilla altoke\" width=\"170\" height=\"160\"></td>";
+                                echo "<td  rowspan=\"4\"><img src=\"https://i.pinimg.com/564x/d6/1c/3e/d61c3e5569c2e056a864a12da440c235.jpg" alt=\"bolita amarilla altoke\" width=\"170\" height=\"160\"></td>";
                             echo "</tr>";
                             echo "<tr>";
                                 echo "<td>$direccion</td>";
@@ -194,7 +194,7 @@
                                 echo "<td>$tipodeboleto</td>";
                             echo "</tr>";
                             echo "<tr>";
-                                echo "<td colspan=\"3\">Súbete al todos los juegos :)</td>";
+                                echo "<td colspan=\"3\">Que prooo</td>";
                             echo "</tr>";
                         echo "</body>";
                         echo "</table>";
